@@ -1,0 +1,5 @@
+ChromeDriver = C:\\sel-java-testng\\drivers\\chromedriver_win32\\chromedriver.exe
+URL = https://login.salesforce.com/
+ExcelReaderPath = C:\\Users\\Swati\\workspace\\SEL\\SelNG\\src\\seltest\\tests\\testdata\\LoginTestdata.xlsx
+BROWSER = Chrome
+
