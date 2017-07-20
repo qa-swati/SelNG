@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="123467" started-at="2017-07-18T07:02:47Z" finished-at="2017-07-18T07:04:51Z">
+  <suite name="Suite" duration-ms="126229" started-at="2017-07-20T12:10:17Z" finished-at="2017-07-20T12:12:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="123467" started-at="2017-07-18T07:02:47Z" finished-at="2017-07-18T07:04:51Z">
+    <test name="Test" duration-ms="126229" started-at="2017-07-20T12:10:17Z" finished-at="2017-07-20T12:12:23Z">
       <class name="seltest.tests.testscripts.LoginTest">
-        <test-method status="PASS" signature="initializeSetUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="initializeSetUp" is-config="true" duration-ms="13334" started-at="2017-07-18T12:32:48Z" finished-at="2017-07-18T12:33:01Z">
+        <test-method status="PASS" signature="initializeSetUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="initializeSetUp" is-config="true" duration-ms="11689" started-at="2017-07-20T17:40:18Z" finished-at="2017-07-20T17:40:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeSetUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="setUp" is-config="true" duration-ms="38" started-at="2017-07-18T12:33:01Z" finished-at="2017-07-18T12:33:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="setUp" is-config="true" duration-ms="7" started-at="2017-07-20T17:40:30Z" finished-at="2017-07-20T17:40:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogIn(java.lang.String, java.lang.String)[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="testLogIn" duration-ms="17534" started-at="2017-07-18T12:33:01Z" data-provider="LogInData" finished-at="2017-07-18T12:33:19Z">
+        <test-method status="PASS" signature="testLogIn(java.lang.String, java.lang.String)[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="testLogIn" duration-ms="18371" started-at="2017-07-20T17:40:30Z" data-provider="LogInData" finished-at="2017-07-20T17:40:48Z">
           <params>
             <param index="0">
               <value>
@@ -31,19 +31,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogIn -->
-        <test-method status="PASS" signature="quitSetup()[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="quitSetup" is-config="true" duration-ms="1236" started-at="2017-07-18T12:33:19Z" finished-at="2017-07-18T12:33:20Z">
+        <test-method status="PASS" signature="quitSetup()[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="quitSetup" is-config="true" duration-ms="1216" started-at="2017-07-20T17:40:48Z" finished-at="2017-07-20T17:40:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitSetup -->
-        <test-method status="PASS" signature="initializeSetUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="initializeSetUp" is-config="true" duration-ms="11192" started-at="2017-07-18T12:33:20Z" finished-at="2017-07-18T12:33:31Z">
+        <test-method status="PASS" signature="initializeSetUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="initializeSetUp" is-config="true" duration-ms="10076" started-at="2017-07-20T17:40:49Z" finished-at="2017-07-20T17:40:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeSetUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="setUp" is-config="true" duration-ms="12" started-at="2017-07-18T12:33:31Z" finished-at="2017-07-18T12:33:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="setUp" is-config="true" duration-ms="1" started-at="2017-07-20T17:40:59Z" finished-at="2017-07-20T17:40:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogIn(java.lang.String, java.lang.String)[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="testLogIn" duration-ms="10519" started-at="2017-07-18T12:33:31Z" data-provider="LogInData" finished-at="2017-07-18T12:33:42Z">
+        <test-method status="PASS" signature="testLogIn(java.lang.String, java.lang.String)[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="testLogIn" duration-ms="11291" started-at="2017-07-20T17:40:59Z" data-provider="LogInData" finished-at="2017-07-20T17:41:11Z">
           <params>
             <param index="0">
               <value>
@@ -59,19 +59,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogIn -->
-        <test-method status="PASS" signature="quitSetup()[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="quitSetup" is-config="true" duration-ms="1011" started-at="2017-07-18T12:33:42Z" finished-at="2017-07-18T12:33:43Z">
+        <test-method status="PASS" signature="quitSetup()[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="quitSetup" is-config="true" duration-ms="955" started-at="2017-07-20T17:41:11Z" finished-at="2017-07-20T17:41:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitSetup -->
-        <test-method status="PASS" signature="initializeSetUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="initializeSetUp" is-config="true" duration-ms="11130" started-at="2017-07-18T12:33:43Z" finished-at="2017-07-18T12:33:54Z">
+        <test-method status="PASS" signature="initializeSetUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="initializeSetUp" is-config="true" duration-ms="10129" started-at="2017-07-20T17:41:12Z" finished-at="2017-07-20T17:41:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeSetUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="setUp" is-config="true" duration-ms="12" started-at="2017-07-18T12:33:54Z" finished-at="2017-07-18T12:33:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="testLogIn(java.lang.String, java.lang.String)[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="testLogIn" duration-ms="55419" started-at="2017-07-18T12:33:54Z" data-provider="LogInData" finished-at="2017-07-18T12:34:49Z">
+        <test-method status="FAIL" signature="testLogIn(java.lang.String, java.lang.String)[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="testLogIn" duration-ms="60276" started-at="2017-07-20T17:41:22Z" data-provider="LogInData" finished-at="2017-07-20T17:42:22Z">
           <params>
             <param index="0">
               <value>
@@ -94,7 +90,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at seltest.tests.testscripts.LoginTest.testLogIn(LoginTest.java:45)
+	at seltest.tests.testscripts.LoginTest.testLogIn(LoginTest.java:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -126,11 +122,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogIn -->
-        <test-method status="PASS" signature="quitSetup()[pri:0, instance:seltest.tests.testscripts.LoginTest@5e3a8624]" name="quitSetup" is-config="true" duration-ms="1236" started-at="2017-07-18T12:34:49Z" finished-at="2017-07-18T12:34:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="setUp" is-config="true" duration-ms="0" started-at="2017-07-20T17:41:22Z" finished-at="2017-07-20T17:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="quitSetup()[pri:0, instance:seltest.tests.testscripts.LoginTest@401e7803]" name="quitSetup" is-config="true" duration-ms="975" started-at="2017-07-20T17:42:22Z" finished-at="2017-07-20T17:42:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitSetup -->
       </class> <!-- seltest.tests.testscripts.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
