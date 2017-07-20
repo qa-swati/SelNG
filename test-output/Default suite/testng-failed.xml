@@ -5,6 +5,7 @@
     <classes>
       <class name="seltest.tests.testscripts.LoginTest">
         <methods>
+          <include name="tearDown"/>
           <include name="testLogIn" invocation-numbers="2"/>
           <include name="setUp"/>
           <include name="initializeSetUp"/>
