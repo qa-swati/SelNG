@@ -23,10 +23,10 @@ public class excelConfigReader {
 		}
 	}
 	
-	public String getData(int sheetno, int rownum, int cellnum)
+	public String getData(int sheetno, int rownum, int colnum)
 	{
 		sheet = wb.getSheetAt(sheetno);
-		String value =  sheet.getRow(rownum).getCell(cellnum).getStringCellValue();
+		String value =  sheet.getRow(rownum).getCell(colnum).getStringCellValue();
 		return value;
 	}
 	
