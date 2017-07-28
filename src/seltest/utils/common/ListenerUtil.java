@@ -14,6 +14,7 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.configuration.Config;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
@@ -24,7 +25,6 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ListenerUtil extends TestBase implements ITestListener
 {	
 	private static ExtentReports extent = createInstance(System.getProperty("user.dir")+"./src/seltest/logs/extent.html");
-	private static ExtentHtmlReporter htmlReporter;
 	private static ThreadLocal parentTest = new ThreadLocal();
     private static ThreadLocal test = new ThreadLocal();
     public static ExtentTest childTest; 
@@ -43,10 +43,11 @@ public class ListenerUtil extends TestBase implements ITestListener
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		getScreenshot(result.getName());
+		String screenshot= getScreenshot(result.getName());
 		try {
 			((ExtentTest) test.get()).fail("Test failed : "+result.getName()+" "+result.getEndMillis()+" "+result.getThrowable());
-			((ExtentTest) test.get()).fail("Test Fails at screen : ").addScreenCaptureFromPath("./src/seltest/screenshots/"+result.getName());
+			((ExtentTest) test.get()).fail("Test Fails at screen : ").addScreenCaptureFromPath("../screenshots/"+screenshot);
+			((ExtentTest) test.get()).fail("Test Fails 1 at screen : ", MediaEntityBuilder.createScreenCaptureFromPath("../screenshots/"+screenshot).build());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

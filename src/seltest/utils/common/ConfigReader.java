@@ -44,10 +44,4 @@ public class ConfigReader {
 		String browser = prop.getProperty("BROWSER");
 		return browser;
 	}
-	
-	public String readExtentHtmlPath()
-	{
-		String htmlPath = prop.getProperty("ExtentHtmlPath");
-		return htmlPath;
-	}
 }

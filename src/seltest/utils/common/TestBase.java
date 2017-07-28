@@ -52,17 +52,19 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
 	}
 	
-	public void getScreenshot(String screenshotName)
+	public String getScreenshot(String screenshotName)
 	{
+		File filename = new File("./src/seltest/screenshots/"+screenshotName+".png");;
 		try
 		{
-			File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(src, new File("./src/seltest/screenshots/"+screenshotName+".png"));
+			File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE); 
+			FileUtils.copyFile(src, filename);
 		}
 		catch(Exception ex)
 		{
 			System.out.println("Exception occurs"+ex.getMessage());
 		}
+		return filename.getName();
 	}
 	
 	@BeforeMethod
